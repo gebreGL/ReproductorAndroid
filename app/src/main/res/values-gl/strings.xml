@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Reproductor</string>
+    <string name="todo">TODO</string>
+
+    <string name="lista">Lista de cancións</string>
+    <string name="introducirCancion">Introduza unha canción</string>
+    <string name="buscar">BUSCAR</string>
+    <string name="reproductor">Reprodutor</string>
+    <string name="ordenar">Ordenar :</string>
+    <string name="porNombre">Por nome</string>
+    <string name="porArtista">Por artista</string>
+    <string name="porFavoritas">Favoritas</string>
+    <string name="opciones">Opcións</string>
+    <string name="reproducir">Reproducir</string>
+    <string name="modificar">Modificar</string>
+    <string name="nombreCancion">- Nome : </string>
+    <string name="artistaCancion">- Artista : </string>
+    <string name="play">Play</string>
+    <string name="pausa">Pausa</string>
+    <string name="avisoCanciones">Non hai máis cancións</string>
+    <string name="salir">Saír</string>
+    <string name="avisoSalir1">A música vaise quitar.</string>
+    <string name="avisoSalir2">Estás seguro de que desexas saír?</string>
+    <string name="opcionSi">Si</string>
+    <string name="opcionNo">Non</string>
+    <string name="reproduciendo">Reproducindo :</string>
+    <string name="de">de</string>
+    <string name="repetir">Repetir</string>
+    <string name="noRepetir">Non repetir</string>
+    <string name="favoritos">Engadida a favoritos</string>
+    <string name="noFavoritos">Quitada de favoritos</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="avisoNombre">Debe introducir un nome</string>
+    <string name="avisoIntroducirCancion">Debe introducir unha canción</string>
+    <string name="avisoArtista">Debe introducir un artista</string>
+    <string name="avisoModificar">Vanse gardar os seguintes datos</string>
+    <string name="modificarCancion">Modificar Cancion</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="avisoCancionesFavoritas">Non hai máis cancións favoritas</string>
+</resources>

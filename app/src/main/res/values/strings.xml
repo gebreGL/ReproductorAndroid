@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Media Player</string>
+    <string name="todo">TODO</string>
+
+    <string name="lista">Playlist</string>
+    <string name="introducirCancion">Type a song</string>
+    <string name="buscar">SEARCH</string>
+    <string name="reproductor">Media Player</string>
+    <string name="ordenar">Sort :</string>
+    <string name="porNombre">By name</string>
+    <string name="porArtista">By artist</string>
+    <string name="porFavoritas">Favorites</string>
+    <string name="opciones">Options</string>
+    <string name="reproducir">Play</string>
+    <string name="modificar">Modify</string>
+    <string name="nombreCancion">- Name : </string>
+    <string name="artistaCancion">- Artist : </string>
+    <string name="play">Play</string>
+    <string name="pausa">Pause</string>
+    <string name="avisoCanciones">There is no more songs</string>
+    <string name="salir">Exit</string>
+    <string name="avisoSalir1">The music is quitting.</string>
+    <string name="avisoSalir2">Do you really want to leave?</string>
+    <string name="opcionSi">Yes</string>
+    <string name="opcionNo">No</string>
+    <string name="reproduciendo">Playing :</string>
+    <string name="de">by</string>
+    <string name="repetir">Repeat</string>
+    <string name="noRepetir">No repeat</string>
+    <string name="favoritos">Added to favorites</string>
+    <string name="noFavoritos">Removed from favorites</string>
+    <string name="aceptar">Accept</string>
+    <string name="cancelar">Cancel</string>
+    <string name="avisoNombre">You must type a name</string>
+    <string name="avisoIntroducirCancion">You must type a song</string>
+    <string name="avisoArtista">You must type an artist</string>
+    <string name="avisoModificar">The following data will be saved</string>
+    <string name="modificarCancion">Modify Song</string>
+    <string name="actualizar">Update</string>
+    <string name="avisoCancionesFavoritas">There is no more favorite songs</string>
+</resources>

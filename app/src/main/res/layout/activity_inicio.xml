@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <AutoCompleteTextView
+            android:id="@+id/acBuscarCancion"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/introducirCancion"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            android:autofillHints="name"/>
+
+        <Button
+            android:id="@+id/btnBuscarCancion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/buscar"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lista"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:textColor="@color/purple_500"
+        android:layout_marginTop="5dp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btnActualizar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/actualizar"
+        android:visibility="gone"/>
+
+    <ListView
+        android:id="@+id/lvCanciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="5dp"
+        android:layout_margin="20dp"
+        android:padding="5dp"
+        android:background="@color/white"
+        android:divider="@color/celeste"/>
+
+</LinearLayout>

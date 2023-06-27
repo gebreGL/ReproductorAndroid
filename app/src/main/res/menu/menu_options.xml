@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/ordenarCanciones" android:title="@string/ordenar"
+        app:showAsAction="collapseActionView">
+        <menu>
+            <item android:id="@+id/porNombre" android:title="@string/porNombre"/>
+            <item android:id="@+id/porArtista" android:title="@string/porArtista"/>
+            <item android:id="@+id/porFavoritas" android:title="@string/porFavoritas"/>
+        </menu>
+    </item>
+    <item android:id="@+id/buscarCancion" android:title="@string/buscar" app:showAsAction="always"
+        android:icon="@drawable/buscar"/>
+</menu>
